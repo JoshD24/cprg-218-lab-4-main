@@ -1,4 +1,4 @@
-/* Sections */
+
 body{
   background-color: #161032;
 }
@@ -9,14 +9,12 @@ body{
   position: relative;
 }
 
-/* Section Header Content */
 .header-container {
   background-color: #DDDDDD;
   text-align: center;
   padding: 6rem 1rem;
 }
 
-/* Option header */
 .option-container {
   text-align: center;
   background-color: #EEEEEE;

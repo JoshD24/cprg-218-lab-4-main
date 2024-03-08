@@ -9,8 +9,9 @@ body{
 .hero-container {
   background-image: url(../Assets/guitars.jpg);
   background-color: #403d58;
-  color: #fff;
-  height: 80vh;
+  color: #161032;
+  -webkit-text-stroke: 1px #FFC53A;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +98,7 @@ body{
 }
 
 
-/* the iframe/google maps becomes smaller to fit in right on the footer */
+/* the iframe/google maps */
 .footer-container iframe{
   width: 100%;
   max-width: 40rem;

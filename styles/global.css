@@ -1,4 +1,7 @@
 /* Sections */
+body{
+  background-color: #161032;
+}
 .container {
   margin: 3rem auto;
   max-width: 75rem;
@@ -19,3 +22,4 @@
   background-color: #EEEEEE;
   padding: 3rem 1rem;
 }
+

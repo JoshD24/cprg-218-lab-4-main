@@ -18,3 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+// Dynamic Date
+const year = new Date(). getFullYear();
+const brand = "Jude Guitars"
+const result = `${year} ${brand}`
+
+document.getElementById("copyright").outerHTML = result

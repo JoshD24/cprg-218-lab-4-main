@@ -7,10 +7,10 @@ body{
 }
 
 .hero-container {
-  background-image: url(../Assets/guitars.jpg);
+  background-image: url(../Assets/header2.jpg);
   background-color: #403d58;
-  color: #161032;
-  -webkit-text-stroke: 1px #FFC53A;
+  color: #ffff;
+  /* -webkit-text-stroke: 1px #FFC53A; */
   height: 75vh;
   display: flex;
   align-items: center;

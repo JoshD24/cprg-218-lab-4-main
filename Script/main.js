@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Dynamic Date
 
-// Get the current year
 const year = new Date().getFullYear();
+const brand = "Jude Guitars";
+const result = `${year} ${brand}`;
 
-// Set the year in the HTML
-document.getElementById("year").textContent = year;
+document.getElementById("copyright").textContent = result;

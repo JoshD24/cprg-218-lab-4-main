@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Merriweather+Sans:wght@500&family=Noto+Serif&family=PT+Serif&family=Poppins:wght@100;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
-  font-family: 'roboto' sans-serif;
+  font-family: 'roboto', Arial, sans-serif;
 }
+
 .main-content {
-  font-family: "roboto", sans-serif;
+  font-family: "roboto", Arial, sans-serif;
+}
+
+.main-content h1{
+  font-size: clamp(5rem, 5vw, 5vw);
 }
 
 .hero-container {
   background-image: url(../Assets/header2.jpg);
   background-color: #403d58;
   color: #ffff;
-  /* -webkit-text-stroke: 1px #FFC53A; */
   height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
   flex-direction: column;
+}
+
+.content-head h1{
+  font-size: 5rem;
 }
 
 .content-container {
@@ -39,6 +48,12 @@ body{
   max-width: 600rem;
   height: auto;
 }
+
+.main-accordion h1{
+  font-size: clamp(4rem, 2vw, 2vw);
+  font-weight: 700;
+}
+
 
 .accordion-container {
   background-color: #FFC53A;
@@ -88,10 +103,14 @@ body{
   align-items: center;
   flex-direction: column;
 }
-.links{
+.links {
   margin: 5rem;
 }
 
+.links h1{
+  font-size: clamp(4rem, 2vw, 2vw);
+  align-items: center;
+}
 .links a{
   text-decoration: underline;
   color: black;
@@ -104,22 +123,35 @@ body{
   max-width: 40rem;
 } 
 
-.copyright{
-  margin-top: 2rem;
+.copyright {
   display: flex;
   justify-content: center;
+  align-items: center;
   color: white;
-  margin-bottom: 2rem;
+  height: 100px;
 
 }
 
 /* Desktop/larger laptops */
 @media screen and (min-width: 1200px) {
+.main-content h1 {
+  font-size: 4rem;
+}
+.hero-container {
+  flex-direction: row;
+}
 .content-container li {
   flex-direction: row;
 }
+.main-accordion h1 {
+  font-size: 6rem;
+  font-weight: 415;
+}
 .content-head {
   margin-right: 5rem;
+}
+.links h1{
+  font-size: 5rem;
 }
 .footer-container{
   flex-direction: row;

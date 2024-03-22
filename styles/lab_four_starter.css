@@ -32,12 +32,14 @@ body{
   background-color: #FFC53A;
   min-height: 600px;
 }
+
 .content-container li{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .content-text{
   display: flex;
   flex-direction: column;
@@ -53,7 +55,6 @@ body{
   font-size: clamp(4rem, 2vw, 2vw);
   font-weight: 700;
 }
-
 
 .accordion-container {
   background-color: #FFC53A;
@@ -73,18 +74,18 @@ body{
     outline: none; 
     font-size: 20px; 
     transition: 0.4s; 
-  }
+}
   
   /* Change background color when moving over button */
-  .accordion:hover {
-    background-color: #ccc; /* Darker grey */
-  }
+.accordion:hover {
+  background-color: #ccc; /* Darker grey */
+}
   
 
-  .accordion.active {
-    background-color: #ccc; /* Darker grey */
-    color: white; /* White text */
-  }
+.accordion.active {
+  background-color: #ccc; /* Darker grey */
+  color: white; /* White text */
+}
   
 .panel {
   padding: 0 18px;
@@ -103,6 +104,7 @@ body{
   align-items: center;
   flex-direction: column;
 }
+
 .links {
   margin: 5rem;
 }
@@ -116,9 +118,8 @@ body{
   color: black;
 }
 
-
 /* the iframe/google maps */
-.footer-container iframe{
+.footer-container iframe {
   width: 100%;
   max-width: 40rem;
 } 
@@ -129,7 +130,6 @@ body{
   align-items: center;
   color: white;
   height: 100px;
-
 }
 
 /* Desktop/larger laptops */
@@ -150,7 +150,7 @@ body{
 .content-head {
   margin-right: 5rem;
 }
-.links h1{
+.links h1 {
   font-size: 5rem;
 }
 .footer-container{
